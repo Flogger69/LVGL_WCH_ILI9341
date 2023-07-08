@@ -119,15 +119,15 @@ void lv_ex_calendar_1(void)
 
     /*Highlight a few days*/
     static lv_calendar_date_t highlighted_days[3];       /*Only its pointer will be saved so should be static*/
-    highlighted_days[0].year = 2018;
+    highlighted_days[0].year = 2023;
     highlighted_days[0].month = 10;
     highlighted_days[0].day = 6;
 
-    highlighted_days[1].year = 2018;
+    highlighted_days[1].year = 2023;
     highlighted_days[1].month = 10;
     highlighted_days[1].day = 11;
 
-    highlighted_days[2].year = 2018;
+    highlighted_days[2].year = 2023;
     highlighted_days[2].month = 11;
     highlighted_days[2].day = 22;
 
@@ -199,7 +199,7 @@ int main(void)
 	USART_Printf_Init(115200);
 	printf("SystemClk:%d\r\n",SystemCoreClock);
 	printf( "ChipID:%08x\r\n", DBGMCU_GetCHIPID() );
-	printf("Bla - blaThis is printf example\r\n");
+	printf("This is printf example\r\n");
 
 	MCU_INIT();
 	lv_init();
