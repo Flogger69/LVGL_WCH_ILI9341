@@ -45,10 +45,10 @@
  *
  * @return  none
  */
-
+/*
 void lv_ex_led_1(void)
 {
-    /*Create a LED and switch it OFF*/
+    //Create a LED and switch it OFF
     lv_obj_t * led1  = lv_led_create(lv_scr_act(), NULL);
     lv_obj_align(led1, NULL, LV_ALIGN_CENTER, -80, 0);
     lv_led_off(led1);
@@ -97,7 +97,7 @@ void lv_ex_btn_1(void)
     label = lv_label_create(btn2, NULL);
     lv_label_set_text(label, "Toggled");
 }
-
+*/
 void lv_ex_calendar_1(void)
 {
     lv_obj_t  * calendar = lv_calendar_create(lv_scr_act(), NULL);
